@@ -75,31 +75,40 @@ This command is to check the repository whether it is updated from other branche
 		=> git pull origin main/master
 
 To push our code or changes to the remote repository 
+
 		=> git push origin main/master 
 
 Remote repository:
 Creating branch 
+
             => git branch <branch_name>
 
 To checkout the branch
+
             => git checkout <branch_name>
             
 or use,it will create and switch the branch
+
             => git branch -d <branch_name>
 
 To merge the branch 
+
             => git branch --merged
 
 To merge the branch
+
             => git merge <branch_name>
 
 To push it in the remote repo
+
             => git push origin main
 
 To delete the branch in local
+
             => git branch -d <branch_name>
 
 To delete the branch in remote repo
+
             => git push origin --delete <branch_name>
 
 
