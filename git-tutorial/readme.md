@@ -7,7 +7,6 @@ There are 2 types of version control system:
 
 In Centralised Version Control, the developers have to maintain a central repository and then they have work it on the remote repository. This cannot be work it on a offline. They cannot download it. It needs continuous network to work.
 
-
 Git commands:
 
       => git --version
