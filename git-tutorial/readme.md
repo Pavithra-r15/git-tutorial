@@ -68,7 +68,7 @@ Follow the same steps and continue with the the commands
 
 	=> git diff
 	=> git status
-	=> git add
+	=> git add 
 	=> git commit -m "initial commit" 
 
 This command is to check the repository whether it is updated from other branches or by other developers.
@@ -89,7 +89,8 @@ To checkout the branch
             
 or use,it will create and switch the branch
 
-            => git branch -d <branch_name>
+            => git checkout -b <branch_name>
+            => git switch -c <branch_name>
 
 To merge the branch 
 
