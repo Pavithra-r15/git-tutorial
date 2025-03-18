@@ -114,5 +114,6 @@ To delete the branch in remote repo
 
 
 
+To test the python application =>python -m http.server 8000
 
 
